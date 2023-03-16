@@ -4,6 +4,30 @@ html {
 }
 
 img {
+  margin-top: 10px;
+  margin-left: 20px;
   height: 100px;
   width: 100px;
+  object-fit: cover;
+  
 }
+
+canvas {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}
+
+
+#button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px orange solid;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
